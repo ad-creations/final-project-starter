@@ -8,7 +8,7 @@ function App(): JSX.Element {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 UD CIS Scheduler,
-                console.log("Welcome to our Website!");
+                <h1> Welcome to our Website!</h1>
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
@@ -16,5 +16,4 @@ function App(): JSX.Element {
         </div>
     );
 }
-
 export default App;
